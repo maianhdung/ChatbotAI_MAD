@@ -18,6 +18,6 @@ def who_is(session, query):
     return "I'm unsure about "+query
 
 
-first_question = "Hi guy, what would you like to know?"
+first_question = "Hi guy 2, what would you like to know?"
 chat = Chat(os.path.join(os.path.dirname(os.path.abspath(__file__)), "Example.template"))
 chat.converse(first_question)
